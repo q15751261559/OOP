@@ -30,7 +30,7 @@ public class LoginFram {
     }
 
     private void createUIComponents() {
-
+int i=111;
     }
 
     public static void main(String[] args) {
