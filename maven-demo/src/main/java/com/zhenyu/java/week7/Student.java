@@ -23,6 +23,7 @@ public class Student {
     private String StudentName;
     private String Gender;
     private Book[] books;
+    private int age;
 
     public void setBooksList(List<Book> bookList) {
     }
