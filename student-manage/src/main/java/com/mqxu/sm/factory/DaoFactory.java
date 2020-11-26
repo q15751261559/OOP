@@ -1,8 +1,9 @@
 package com.mqxu.sm.factory;
 import com.mqxu.sm.dao.AdminDao;
-//import com.mqxu.sm.dao.DepartmentDao;
+import com.mqxu.sm.dao.DepartmentDao;
+import com.mqxu.sm.dao.DepartmentDao;
 import com.mqxu.sm.dao.impl.AdminDaoImpl;
-//import com.mqxu.sm.dao.impl.DepartmentDaoImpl;
+import com.mqxu.sm.dao.impl.DepartmentDaolmpl;
 public class DaoFactory {
     /**
      * 获取AdminDao实例
@@ -18,7 +19,7 @@ public class DaoFactory {
      *
      * @return AdminDao实例
      */
-//    public static DepartmentDao getDepartmentDaoInstance() {
-//        return new DepartmentDaoImpl();
-//    }
+    public static DepartmentDao getDepartmentDaoInstance() {
+        return new DepartmentDaolmpl();
+    }
 }
