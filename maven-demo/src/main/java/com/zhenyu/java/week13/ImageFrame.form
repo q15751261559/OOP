@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.zhenyu.java.week13.ImageFrame">
+  <grid id="27dc6" class="com.zhenyu.java.week13.ImagePanel" binding="mainPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="52f79" class="javax.swing.JLabel" binding="imgLabel">
+        <constraints/>
+        <properties>
+          <preferredSize width="300" height="300"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
