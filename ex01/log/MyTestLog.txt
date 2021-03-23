@@ -1,0 +1,2 @@
+21-03-22 09:42:52.964 [main] INFO  com.homework5.dao.UserDaoImpl - --等待新用户添加--
+21-03-22 09:42:52.969 [main] INFO  com.homework5.dao.UserDaoImpl - --用户添加完成--
